@@ -78,7 +78,7 @@ All the baseline CNN models are using 2d convolution
 | Logsitic Regression | 0.9825   | 0.9825 | 0.9653    | 0.9738   |
 | Naïve Bayes         | 0.9825   | 0.9825 | 0.9653    | 0.9738   |
 | KNN                 | 0.9817   | 0.9817 | 0.9696    | 0.9742   |
-| Decision Trees      | 0.9762   | 0.9762 | 0.9717    | 0.9737   |
+| Decision Trees      | 0.9762   | 0.9815 | 0.9717    | 0.9737   |
 
 ## Baseline DNN Models
 | Method | Accuracy | Loss   |
@@ -102,4 +102,4 @@ All the baseline CNN models are using 2d convolution
 ## CNN Softmax using balanced data 
 | Method      | Accuracy | Recall | Precision | F1 Score |
 | :---------- | :------- | :----- | :-------- | :------- |
-| CNN Softmax | 0.9361   | 0.7337 | 0.9658    | 0.7830   |
+| CNN Softmax | 0.9361   | 0.8727 | 0.7337    | 0.7830   |
