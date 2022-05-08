@@ -1,7 +1,9 @@
 # Deep Similarity Using EHR
 This is an attempt to reproduce the paper ["A Novel Deep Similarity Learning Approach to Electronic Health Records Data"](https://ieeexplore.ieee.org/document/9257424)
 
-    V. Gupta, S. Sachdeva and S. Bhalla, ”A Novel Deep Similarity Learning Approach to Electronic Health Records Data,” in IEEEAccess, vol. 8, pp. 209278-209295, 2020, doi:10.1109/ACCESS.2020.3037710
+    V. Gupta, S. Sachdeva and S. Bhalla, ”A Novel Deep Similarity Learning Approach
+    to Electronic Health Records Data,” in IEEEAccess, vol. 8, pp. 209278-209295, 2020, 
+    doi:10.1109/ACCESS.2020.3037710.
 
 
 # Setup
@@ -14,7 +16,7 @@ Setup a virtual environment using the following commands
 
 `python3 -m venv ~/.venv` 
 
-## 2. Active virtual environment
+## 2. Activate virtual environment
 `source ~/.venv/bin/activate`
 `pip install --upgrade pip`
 
@@ -52,7 +54,7 @@ Data can be imported to PostgreSQL database using the scripts provided on the we
     * p_y_oh.pt.gz - One hot encoded data for the target lables. Uncompress this before using with the model
 
 # Baseline models
-* baseline-ml.ipynb - Baseline ml models using the following 
+* baseline-ml.ipynb - Baseline ml models using the following algorithms
     * Logistic Regression
     * Naive Bayes 
     * KNN
@@ -60,7 +62,7 @@ Data can be imported to PostgreSQL database using the scripts provided on the we
 * baseline-cnn.ipynb - Baseline CNN model for muti-class classification
 * baseline-rnn.ipynb - Baseline RNN model for muti-class classification
 * baseline-mlp.ipynb - Baseline MLP model for muti-class classification
-* baseline-cnn-cosine-euclidean-manhattan.ipynb - Baseline cnn model for patient similarity using cosine similiarty, euclidean and manhattan distance. 
+* baseline-cnn-cosine-euclidean-manhattan.ipynb - Baseline cnn model for patient similarity using cosine similarity, euclidean and manhattan distance. 
 
 All the baseline CNN models are using 2d convolution
 
